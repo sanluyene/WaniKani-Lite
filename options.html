@@ -1,11 +1,42 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <script src="options.js"></script>
-  </head>
-  <body>
-    <div>
-      <p>Choose a different background color!</p>
-    </div>
-  </body>
+	<head></head>
+
+	<body>
+		<div>
+			<form>
+				<p>Enter your WaniKani APIv2 key: <input type="text" name="api"></p>
+				<p>Choose a different refresh interval: 
+					<select name="refresh">
+					  <option value="15">15 minutes</option>
+					  <option value="20">20 minutes</option>
+					  <option value="30">30 minutes</option>
+					  <option value="45">45 minutes</option>
+					  <option value="60">60 minutes</option>
+					</select>
+				</p>
+				<p>Do you want to see numbers in English or Japanese script?<br />
+					<input id="eNumbers" type="radio" name="numbers" value="english"> English<br>
+					<input id="jNumbers" type="radio" name="numbers" value="japanese"> Japanese<br>
+				</p>
+<!-- 
+				1: &#x4e00;
+				2: &#x4e8c;
+				3: &#x4e09;
+				4: &#x56db;
+				5: &#x4e94;
+				6: &#x516d;
+				7: &#x4e03;
+				8: &#x516b;
+				9: &#x4e5d;
+				10: &#x5341;
+				100: &#x767e;
+				1000: &#x5343;
+ -->
+				<button type="submit">Save</button>
+			</form>
+		</div>
+
+		<script src="options.js"></script>
+	</body>
 </html>

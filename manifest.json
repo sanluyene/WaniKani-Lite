@@ -7,15 +7,15 @@
 
   "description": "At-a-glance WaniKani Status",
   "icons": {
-    "16": "images/siteicon.png",
-    "32": "images/siteicon.png",
-    "48": "images/siteicon.png",
-    "128": "images/siteicon.png"
+    "16": "images/wanikani-logo.png",
+    "32": "images/wanikani-logo.png",
+    "48": "images/wanikani-logo.png",
+    "128": "images/wanikani-logo.png"
   },
 
   "browser_action": {
     "name": "Update lesson count",
-    "default_icon": "images/siteicon.png",
+    "default_icon": "images/wanikani-logo.png",
     "default_title": "WaniKani Lite",
     "default_popup": "popup.html"
   },
