@@ -1,0 +1,29 @@
+{
+  "name": "WaniKani Lite",
+  "version": "1.0",
+  "manifest_version": 2,
+
+  "author": "Ashley Pressley",
+
+  "description": "At-a-glance WaniKani Status",
+  "icons": {
+    "16": "images/siteicon.png",
+    "32": "images/siteicon.png",
+    "48": "images/siteicon.png",
+    "128": "images/siteicon.png"
+  },
+
+  "browser_action": {
+    "name": "Update lesson count",
+    "default_icon": "images/siteicon.png",
+    "default_title": "WaniKani Lite",
+    "default_popup": "popup.html"
+  },
+
+  "permissions": ["storage"],
+  "options_page": "options.html",
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  }
+}
