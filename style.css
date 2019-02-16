@@ -25,6 +25,40 @@ body {
 	text-decoration: none;
 }
 
+.options {
+	padding: 20px;
+	background-color: #434343;
+	font-size: 15px;
+}
+
+.options a {
+	color: #0093dd;
+}
+
+.options a:hover {
+	color: #294ddb;
+}
+
+.options input {
+	width: 100%;
+	border-radius: 10px;
+	text-align: center;
+}
+
+button {
+	background-color: #294ddb;
+	color: #fff;
+	border-radius: 10px;
+	width: 50%;
+	margin: 0 auto;
+}
+
+button:hover,
+button:focus {
+	background-color: #00018f;
+	color: #fff;
+}
+
 .big-number {
 	font-size: 24px;
 	font-weight: 800;
